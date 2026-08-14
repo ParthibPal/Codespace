@@ -1,0 +1,14 @@
+Option 1: Install MySQL in Codespaces
+sudo apt update
+sudo apt install mysql-server -y
+sudo service mysql start
+
+Then Connect mysql server:
+sudo mysql
+
+Then check database availability
+show databases
+
+
+// to select the db run in terminal
+sudo mysql company_db

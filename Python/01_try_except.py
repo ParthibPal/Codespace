@@ -43,3 +43,10 @@
 #     print("Program executed sucessfully.")
 
 
+# Raising exception manually
+age = int(input("Enter age: "))
+if age < 18:
+    raise ValueError("Age must be 18 or above")
+
+print("Eligible")
+
