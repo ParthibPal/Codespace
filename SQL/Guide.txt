@@ -12,3 +12,13 @@ show databases
 
 // to select the db run in terminal
 sudo mysql company_db
+
+// run the query file 
+sudo mysql company_db < view_data.sql
+
+
+// GitHub push code 
+--> git status
+--> git add .
+--> git commit -m "Added SQL database setup and practice queries"
+--> git push origin main

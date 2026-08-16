@@ -1,0 +1,4 @@
+1. show databases;
+2. select database(); // shows current selected database
+3. use dataabse_name; // helps to connect that specific database 
+4. DROP DATABASE company_db; //delete epecific database 
