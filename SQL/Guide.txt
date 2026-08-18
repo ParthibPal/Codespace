@@ -22,3 +22,6 @@ sudo mysql company_db < view_data.sql
 --> git add .
 --> git commit -m "Added SQL database setup and practice queries"
 --> git push origin main
+
+
+
