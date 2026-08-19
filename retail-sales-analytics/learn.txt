@@ -1,0 +1,11 @@
+# create virtual envoronment
+python -m venv venv
+
+# Activate
+source venv/bin/activate
+
+#install modules
+pip install pandas numpy matplotlib seaborn plotly streamlit openpyxl jupyter
+
+# save requirements
+pip freeze > requirements.txt
